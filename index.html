@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hi there!</title>
+    <link rel="shortcut icon" href="apple.png">
+</head>
+<body>
+    <script language="JavaScript">
+    alert("Hi there! :)");
+        function password()
+        {
+            var x = 1;
+            do
+            {
+                p = prompt("Someone.","");
+                if (p=="appleofmyeye")
+                {
+                alert("Hi Apple of My Eye :)");
+                window.open("someone.html");
+                break;
+                }
+                else
+                {
+                alert("Wrong password, try again!");
+                }
+                if (x==3)
+                {
+                alert("Sorry, you only have 3 changes!");
+                history.go(-1);
+                }
+                x=x+1;
+            }
+            while (x<=3)
+        }
+    </script>
+    <center><div>
+        <p>Coded by iyd404.</p>
+        <form method="post">
+        <input type="button" value="Click me!" onclick="password()">
+        </form>
+    </div></center>
+</body>
+</html>

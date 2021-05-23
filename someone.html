@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somebody to You</title>
+    <link rel="shortcut icon" href="apple.png">
+    <script language="javascript">
+        alert("Congratulations!, if you seeing this page, that mean you are The Apple of My Eye :)");
+        function playUwu()
+        {
+			var audio = document.getElementById("myAudio"); 
+			audio.volume = 1;
+			audio.play();
+            var video = document.getElementById("myVideo");
+            video.play();
+		}
+    </script>
+</head>
+<body>
+    <center><div>
+        <h2>Apple of My Eye</h2>
+        <h3>"Something or someone that one cherishes above all others."</h3>
+        <h3>//</h3>
+        <p>Coded by iyd404.</p>
+    </div></center>
+    <br>
+    <div id="tombol">
+        <form method="post">
+        <center><input id="tombol" type="button" value="Click me!" onclick="playUwu()"></center>
+        </form>
+    </div>
+    <br>
+    <audio id="myAudio" muted="true" loop="true">
+        <source src="tothebone.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <div id="videoanj">
+    <center><video id="myVideo" height="80%" width="80%">
+        <source src="video2.mp4" type="video/mp4">
+        Your browser does not support the video element.
+    </video></center>
+    </div>
+</body>
+</html>
